@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body {
   margin: 0;
@@ -81,7 +83,7 @@ header.headline-section div.headline h1 {
 }
 
 header.headline-section div.headline h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -89,7 +91,7 @@ header.headline-section div.headline h2 {
 }
 
 header.headline-section div.headline h5 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -135,7 +137,7 @@ header.headline-section div.headline h5 {
   }
 
   header.headline-section div.headline h1 {
-    font-size: 40px;
+    font-size: 70px;
   }
 
   header.headline-section div.headline h2 {
@@ -200,7 +202,7 @@ header.headline-section div.headline h5 {
   }
 
   header.headline-section div.headline h1 {
-    font-size: 40px;
+    font-size: 55px;
   }
 
   header.headline-section div.headline h2 {
