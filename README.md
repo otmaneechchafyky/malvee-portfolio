@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="https://raw.githubusercontent.com/microverseinc/readme-template/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+ <img src="https://raw.githubusercontent.com/microverseinc/readme-template/master/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>M.Alvee Portfolio Website</b></h3>
+  <h3><b>M Alvee Portfolio</b></h3>
 
 </div>
 
@@ -46,9 +46,16 @@ After you're finished please remove all the comments and instructions!
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -63,16 +70,30 @@ After you're finished please remove all the comments and instructions!
 ### Tech Stack <a name="tech-stack"></a>
 
 
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML and CSS</li>
+    <li><a href="https://reactjs.org/">HTML and CSS</a></li>
   </ul>
 </details>
 
+<!-- Features -->
 
+### Key Features <a name="key-features"></a>
 
+- **[clean ui]**
+- **[good design]**
+- **[good graphics]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+currently not deployed you can view in localhost
+
+- [Live Demo Link](https://localhost:8000)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,34 +107,73 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-Only Chrome or other browser
-
-<!--
-Example command:
 
 ```sh
- gem install rails
+  npm intall -g live-server
+  live-server
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-Install Local Linter Packages Using commands given bellow:
+
+commands:
+
 ```sh
-  npm install --save-dev hint@7.x
-  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+  cd my-folder
+  git clone https://github.com/0xMALVEE/malvee-portfolio.git
+```
+-
+
+### Install
+
+Install this project with:
+
+
+command:
+
+```sh
+  cd my-project
+  npm install
 ```
 
-And for running the linters localy use the following commands: 
+
+### Usage
+
+To run the project, execute the following command:
+
+
+command:
+
 ```sh
-  npx hint .
-  npx stylelint "**/*.{css,scss}"
+  live-server
 ```
 
 
+### Run tests
 
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,17 +181,34 @@ And for running the linters localy use the following commands:
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
 
+👤 **Author1**
 
-👤 **malvee**
-
-- GitHub: [@0xmalvee](https://github.com/0xmalvee)
-- Twitter: [@alveedev](https://twitter.com/alveedev)
-- LinkedIn: [@0xmalvee](https://linkedin.com/in/0xmalvee)
+- GitHub: [@githubhandle](https://github.com/0xmalvee)
+- Twitter: [@twitterhandle](https://twitter.com/alveedev)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/0xmalvee)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[clean ui design]**
+- [ ] **[minimalistic design]**
+- [ ] **[supre easy to read]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,11 +226,21 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank...
+
+I would like to thank... me
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+
+
+- **[how can i run it?]**
+
+  - [local server]
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
