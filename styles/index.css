@@ -60,15 +60,20 @@ header.headline-section div.headline {
   width: 50%;
 }
 
-header.headline-section div.social-links {
+header.headline-section ul.social-links {
+  padding-left: 1px;
   margin-right: 20px;
+}
+
+header.headline-section ul.social-links ul {
+  list-style-type: none;
 }
 
 header.headline-section div.graphics {
   margin-left: 13%;
 }
 
-header.headline-section div.social-links span {
+header.headline-section ul.social-links li {
   display: block;
   margin-top: 5px;
 }
@@ -115,7 +120,7 @@ header.headline-section div.headline p {
     background-position: bottom right;
   }
 
-  header.headline-section div.social-links {
+  header.headline-section ul.social-links {
     order: 1;
   }
 
@@ -152,8 +157,9 @@ header.headline-section div.headline p {
     display: none;
   }
 
-  header.headline-section div.social-links span {
+  header.headline-section ul.social-links li {
     display: inline-block;
+    margin-right:10px;
   }
 }
 
@@ -180,7 +186,7 @@ header.headline-section div.headline p {
     overflow-x: hidden !important;
   }
 
-  header.headline-section div.social-links {
+  header.headline-section ul.social-links {
     order: 1;
   }
 
@@ -217,7 +223,7 @@ header.headline-section div.headline p {
     display: none;
   }
 
-  header.headline-section div.social-links span {
+  header.headline-section ul.social-links li {
     display: inline-block;
   }
 }
