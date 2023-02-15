@@ -43,7 +43,7 @@ nav div.breadcrumb-icon {
 
 /* header.headline-section section */
 
-header.headline-section {
+section.headline-section {
   padding: 1px 30px;
   display: flex;
   align-items: center;
@@ -55,30 +55,30 @@ header.headline-section {
   background-size: 40%;
 }
 
-header.headline-section div.headline {
+section.headline-section div.headline {
   margin-left: 13%;
   width: 50%;
 }
 
-header.headline-section ul.social-links {
+section.headline-section ul.social-links {
   padding-left: 1px;
   margin-right: 20px;
 }
 
-header.headline-section ul.social-links ul {
+section.headline-section ul.social-links ul {
   list-style-type: none;
 }
 
-header.headline-section div.graphics {
+section.headline-section div.graphics {
   margin-left: 13%;
 }
 
-header.headline-section ul.social-links li {
+section.headline-section ul.social-links li {
   display: block;
   margin-top: 5px;
 }
 
-header.headline-section div.headline h1 {
+section.headline-section div.headline h1 {
   color: #f55800;
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -87,7 +87,7 @@ header.headline-section div.headline h1 {
   margin: 1px;
 }
 
-header.headline-section div.headline h2 {
+section.headline-section div.headline h2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -112,7 +112,7 @@ section.headline-section div.headline p {
     display: block;
   }
 
-  header.headline-section {
+  section.headline-section {
     flex-direction: column;
     justify-content: center;
     align-items: start;
@@ -120,36 +120,36 @@ section.headline-section div.headline p {
     background-position: bottom right;
   }
 
-  header.headline-section ul.social-links {
+  section.headline-section ul.social-links {
     order: 1;
   }
 
-  header.headline-section div.graphics svg {
+  section.headline-section div.graphics svg {
     max-width: 600px !important;
     max-height: 500px !important;
   }
 
-  header.headline-section div.graphics {
+  section.headline-section div.graphics {
     overflow-x: hidden;
     position: absolute;
     bottom: -20%;
     right: -50%;
   }
 
-  header.headline-section div.headline {
+  section.headline-section div.headline {
     min-width: fit-content !important;
     margin: 1px;
   }
 
-  header.headline-section div.headline h1 {
+  section.headline-section div.headline h1 {
     font-size: 70px;
   }
 
-  header.headline-section div.headline h2 {
+  section.headline-section div.headline h2 {
     font-size: 32px;
   }
 
-  header.headline-section div.headline p {
+  section.headline-section div.headline p {
     font-size: 20px;
   }
 
@@ -157,7 +157,7 @@ section.headline-section div.headline p {
     display: none;
   }
 
-  header.headline-section ul.social-links li {
+  section.headline-section ul.social-links li {
     display: inline-block;
     margin-right: 10px;
   }
@@ -179,43 +179,43 @@ section.headline-section div.headline p {
     display: block;
   }
 
-  header.headline-section {
+  section.headline-section {
     flex-direction: column;
     justify-content: center;
     align-items: start;
     overflow-x: hidden !important;
   }
 
-  header.headline-section ul.social-links {
+  section.headline-section ul.social-links {
     order: 1;
   }
 
-  header.headline-section div.graphics svg {
+  section.headline-section div.graphics svg {
     max-width: 600px !important;
     max-height: 500px !important;
   }
 
-  header.headline-section div.graphics {
+  section.headline-section div.graphics {
     overflow-x: hidden;
     position: absolute;
     bottom: -13%;
     right: -118% !important;
   }
 
-  header.headline-section div.headline {
+  section.headline-section div.headline {
     min-width: fit-content !important;
     margin: 1px;
   }
 
-  header.headline-section div.headline h1 {
+  section.headline-section div.headline h1 {
     font-size: 55px;
   }
 
-  header.headline-section div.headline h2 {
+  section.headline-section div.headline h2 {
     font-size: 32px;
   }
 
-  header.headline-section div.headline p {
+  section.headline-section div.headline p {
     font-size: 20px;
   }
 
@@ -223,13 +223,13 @@ section.headline-section div.headline p {
     display: none;
   }
 
-  header.headline-section ul.social-links li {
+  section.headline-section ul.social-links li {
     display: inline-block;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  header.headline-section div.graphics {
+  section.headline-section div.graphics {
     overflow-x: hidden;
     position: absolute;
     bottom: -13%;
@@ -238,7 +238,7 @@ section.headline-section div.headline p {
 }
 
 @media only screen and (max-width: 335px) {
-  header.headline-section div.graphics {
+  section.headline-section div.graphics {
     overflow-x: hidden;
     position: absolute;
     bottom: -13%;
