@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3e3c3c;
+  padding: 20px 14%;
+}
+
+nav div.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+nav div.nav-links a {
+  margin-right: 26px;
+}
+
+nav div.breadcrumb-icon {
+  display: none;
+}
+
+div.name span {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* header section */
+
+header {
+  padding: 1px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: #1c1a19;
+  overflow-x: hidden;
+}
+
+header div.headline {
+  margin-left: 13%;
+  min-width: 500px;
+}
+
+header div.social-links {
+  margin-right: 20px;
+}
+
+header div.graphics {
+  margin-left: 13%;
+}
+
+header div.social-links span {
+  display: block;
+  margin-top: 5px;
+}
+
+header div.headline h1 {
+  color: #f55800;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  margin: 1px;
+}
+
+header div.headline h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+header div.headline h5 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* responsive */
+
+/* mobile */
+@media only screen and (max-width: 375px) {
+  nav div.breadcrumb-icon {
+    display: block;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    overflow-x: hidden !important;
+  }
+
+  header div.social-links {
+    order: 1;
+  }
+
+  header div.graphics svg {
+    max-width: 600px !important;
+    max-height: 500px !important;
+  }
+
+  header div.graphics {
+    display: none;
+    overflow-x: hidden;
+    position: absolute;
+    bottom: -30%;
+    right: -50%;
+  }
+
+  header div.headline {
+    min-width: fit-content !important;
+    margin: 1px;
+  }
+
+  header div.headline h1 {
+    font-size: 40px;
+  }
+
+  header div.headline h2 {
+    font-size: 32px;
+  }
+
+  header div.headline h5 {
+    font-size: 20px;
+  }
+
+  nav div.nav-links {
+    display: none;
+  }
+
+  header div.social-links span {
+    display: inline-block;
+  }
+}
+
+/* desktop */
+
+@media only screen and (max-width: 660px) {
+  nav div.breadcrumb-icon {
+    display: block;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    overflow-x: hidden !important;
+  }
+
+  header div.social-links {
+    order: 1;
+  }
+
+  header div.graphics svg {
+    max-width: 600px !important;
+    max-height: 500px !important;
+  }
+
+  header div.graphics {
+    overflow-x: hidden;
+    position: absolute;
+    bottom: -20%;
+    right: -50%;
+  }
+
+  header div.headline {
+    min-width: fit-content !important;
+    margin: 1px;
+  }
+
+  header div.headline h1 {
+    font-size: 40px;
+  }
+
+  header div.headline h2 {
+    font-size: 32px;
+  }
+
+  header div.headline h5 {
+    font-size: 20px;
+  }
+
+  nav div.nav-links {
+    display: none;
+  }
+
+  header div.social-links span {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header div.graphics {
+    overflow-x: hidden;
+    position: absolute;
+    bottom: -40%;
+    right: -50%;
+  }
+}
