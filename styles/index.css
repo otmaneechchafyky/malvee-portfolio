@@ -214,6 +214,11 @@ div.main-project-details button {
 
 /* sub project / more projects */
 
+article.work-card-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+
 div.sub-projects h3.title {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
