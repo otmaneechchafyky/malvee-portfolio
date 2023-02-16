@@ -149,12 +149,21 @@ section.work-section {
   padding: 24px;
 }
 
+div.main-project {
+  display: flex;
+  flex-direction: column;
+}
+
 div.main-project-image img {
   width: 100%;
 }
 
 header.work-heading hr {
   margin-bottom: 80px;
+}
+
+hr.line {
+  width: 100%;
 }
 
 div.main-project-details h3.title {
@@ -233,6 +242,8 @@ div.sub-projects h3.title {
 
 div.sub-projects {
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 div.sub-projects p.description {
@@ -295,7 +306,10 @@ div.sub-projects div.btn-container {
 /* about me section */
 
 section.aboutme-section {
+  display: flex;
+  flex-direction: column;
   padding: 120px 24px;
+  padding-right: 0;
   background-color: #1c1a19;
 }
 
@@ -342,6 +356,7 @@ section.aboutme-section div.skills ul li {
 }
 
 header.aboutme-heading {
+  padding-right: 24px;
   padding-bottom: 220px;
   background-image: url("/static/work/aboutme-graphics.png");
   background-repeat: no-repeat;
