@@ -42,6 +42,19 @@ nav div.breadcrumb-icon {
 }
 
 /* header.headline-section section */
+
+header.work-heading h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #1c1a19;
+  text-align: center;
+}
+
 section.headline-section {
   padding: 1px 30px;
   display: flex;
@@ -88,6 +101,17 @@ section.headline-section div.headline h1 {
   color: #ff6b00;
 }
 
+header.aboutme-heading h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-bottom: 0;
+}
+
 section.headline-section div.headline h2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -99,6 +123,17 @@ section.headline-section div.headline h2 {
   color: #fff5e1;
 }
 
+header.aboutme-heading p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
 section.headline-section div.headline p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -106,6 +141,222 @@ section.headline-section div.headline p {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+}
+
+/* work section */
+section.work-section {
+  color: black;
+  padding: 24px;
+}
+
+div.main-project-image img {
+  width: 100%;
+}
+
+header.work-heading hr {
+  margin-bottom: 80px;
+}
+
+div.main-project-details h3.title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  margin-bottom: 1px;
+}
+
+div.main-project-details p.description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+div.main-project-details ul.tech-used {
+  list-style-type: none;
+  display: flex;
+  padding-left: 1px;
+}
+
+div.main-project-details ul.tech-used li {
+  align-items: center;
+}
+
+div.main-project-details ul.tech-used li a {
+  color: black;
+  display: inline-block;
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+}
+
+div.main-project-details button {
+  color: white;
+  border: none;
+  background: #ff6b00;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* sub project / more projects */
+
+div.sub-projects h3.title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+  padding-top: 84px;
+}
+
+div.sub-projects {
+  color: white;
+}
+
+div.sub-projects p.description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+div.sub-projects ul.tech-used {
+  margin-bottom: 0;
+  list-style-type: none;
+  display: flex;
+  padding-left: 1px;
+}
+
+div.sub-projects ul.tech-used li {
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+div.sub-projects ul.tech-used li a {
+  display: inline-block;
+  padding: 10px 12px;
+  margin-right: 12px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+div.sub-projects button.view-project-btn {
+  color: white;
+  border: none;
+  width: 100%;
+  background: #ff6b00;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+}
+
+div.sub-projects div.sub-project-container {
+  background: url("/static/work/printing-work.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+div.sub-projects div.btn-container {
+  text-align: center;
+  color: white;
+}
+
+/* about me section */
+
+section.aboutme-section {
+  padding: 120px 24px;
+  background-color: #1c1a19;
+}
+
+section.aboutme-section hr {
+  margin-bottom: 121px;
+}
+
+section.aboutme-section div.skills {
+  text-align: center;
+}
+
+section.aboutme-section div.skills-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.aboutme-section div.skills-title h3 {
+  margin-left: 12px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+section.aboutme-section div.skills ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+section.aboutme-section div.skills ul li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 17px;
+}
+
+header.aboutme-heading {
+  padding-bottom: 220px;
+  background-image: url("/static/work/aboutme-graphics.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+header.aboutme-heading button {
+  color: white;
+  border: none;
+  background: #ff6b00;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* responsive in desktop */
