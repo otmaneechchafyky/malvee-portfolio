@@ -165,7 +165,7 @@ section.headline-section {
   display: flex;
   min-height: 100vh;
   background-color: #1c1a19;
-  background-image: url("/static/bg.png");
+  background-image: url("../static/bg.png");
   background-repeat: no-repeat;
   background-size: 40%;
   flex-direction: column;
@@ -396,7 +396,7 @@ div.sub-projects button.view-project-btn {
 }
 
 div.sub-projects div.sub-project-container {
-  background: url("/static/work/printing-work.png");
+  background: url("../static/work/printing-work.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 16px;
@@ -463,7 +463,7 @@ section.aboutme-section div.skills ul li {
 header.aboutme-heading {
   padding-right: 24px;
   padding-bottom: 220px;
-  background-image: url("/static/work/aboutme-graphics.png");
+  background-image: url("../static/work/aboutme-graphics.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
