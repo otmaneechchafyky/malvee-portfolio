@@ -15,6 +15,22 @@ a {
   color: white;
 }
 
+/* button effects */
+
+button:hover {
+  cursor: pointer;
+  background: #fff5e1 !important;
+  color: #ff6b00 !important;
+  border: 0.1px solid #ff6b00 !important;
+  transition: 0.1s all;
+}
+
+button:active {
+  background-color: #e05304 !important;
+  border: none;
+  color: white !important;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -41,6 +57,111 @@ nav div.breadcrumb-icon {
   display: block;
 }
 
+/* contact form */
+
+div.contact-heading p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 120px;
+  padding-bottom: 73px;
+  margin-bottom: 0;
+}
+
+form.contact-form input {
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid #dbd8d7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  padding: 14px;
+}
+
+form.contact-form textarea {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+  height: 114px;
+  background-color: #fbf8f7;
+  border: 0;
+  padding: 12px;
+}
+
+form.contact-form {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+form.contact-form button {
+  background-color: #ff6b00;
+  margin-top: 24px;
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  border-style: none;
+  font-family: 'inter', serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+}
+
+form.contact-form ul {
+  padding: 0;
+}
+
+form.contact-form li.button-wraper {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 136px;
+}
+
+footer ul.social-links-footer {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+footer ul.social-links-footer li {
+  display: list-item;
+  margin-right: 21px;
+}
+
+footer ul.social-links-footer li.last-icon {
+  margin-right: 0;
+}
+
+footer svg {
+  color: #505f79 !important;
+}
+
+footer hr.last-line {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40%;
+  background: #0d151e;
+  height: 5px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
 /* header.headline-section section */
 
 header.work-heading h2 {
@@ -60,7 +181,7 @@ section.headline-section {
   display: flex;
   min-height: 100vh;
   background-color: #1c1a19;
-  background-image: url("/static/bg.png");
+  background-image: url("../static/bg.png");
   background-repeat: no-repeat;
   background-size: 40%;
   flex-direction: column;
@@ -291,7 +412,7 @@ div.sub-projects button.view-project-btn {
 }
 
 div.sub-projects div.sub-project-container {
-  background: url("/static/work/printing-work.png");
+  background: url("../static/work/printing-work.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 16px;
@@ -358,7 +479,7 @@ section.aboutme-section div.skills ul li {
 header.aboutme-heading {
   padding-right: 24px;
   padding-bottom: 220px;
-  background-image: url("/static/work/aboutme-graphics.png");
+  background-image: url("../static/work/aboutme-graphics.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
