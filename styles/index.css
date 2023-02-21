@@ -15,6 +15,22 @@ a {
   color: white;
 }
 
+/* button effects */
+
+button:hover {
+  cursor: pointer;
+  background: #fff5e1 !important;
+  color: #ff6b00 !important;
+  border: 0.1px solid #ff6b00 !important;
+  transition: 0.1s all;
+}
+
+button:active {
+  background-color: #e05304 !important;
+  border: none;
+  color: white !important;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
