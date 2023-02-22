@@ -534,7 +534,178 @@ header.aboutme-heading button {
 
   header.work-heading h2 {
     text-align: left;
-    width: 40%;
+    width: 400px;
+  }
+
+  hr.work-line {
+    width: 27%;
+  }
+
+  section.work-section {
+    padding-left: 141px;
+    padding-right: 141px;
+  }
+
+  section.work-section article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  section.work-section article div.main-project {
+    grid-area: 1/1/1/3;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  section.work-section article div.main-project div {
+    width: 50%;
+  }
+
+  section.work-section article div.main-project div.main-project-details {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  section.work-section article div.sub-projects {
+    width: 100%;
+  }
+
+  section.work-section article div.sub-projects div.btn-container {
+    display: none;
+  }
+
+  section.work-section article div.sub-projects div.sub-project-container {
+    height: 100%;
+    padding: 50px 16px;
+  }
+
+  section.work-section article div.first {
+    border: 2px solid black;
+  }
+
+  section.work-section article div.first div.sub-project-container h3.title {
+    display: none;
+  }
+
+  section.work-section article div.first div.btn-container {
+    display: block;
+  }
+
+  section.headline-section div.headline p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+  }
+
+  section.work-section article div.first div.sub-project-container p {
+    display: none;
+  }
+
+  section.work-section article div.first div.sub-project-container div {
+    display: none;
+  }
+
+  section.work-section article div.first div.sub-project-container {
+    background: url("../static/work/first-sub-project.png") no-repeat;
+  }
+
+  header.aboutme-heading {
+    background: url("../static/illustration-about\ me.svg") no-repeat;
+    background-position: bottom right;
+    padding-left: 141px;
+    padding-right: 141px;
+    background-size: 44%;
+  }
+
+  section.aboutme-section div.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  section.aboutme-section div.aboutme-heading-content {
+    width: 90%;
+  }
+
+  section.headline-section {
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-position: top right;
+  }
+
+  section.headline-section ul.social-links {
+    order: 0;
+  }
+
+  section.headline-section ul.social-links li {
+    display: block !important;
+    margin-top: 10px;
+  }
+
+  section.headline-section div.headline {
+    margin-left: 5%;
+    width: 566px;
+  }
+
+  section.headline-section div.headline h1 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
+  }
+
+  section.headline-section div.headline h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  nav div.nav-links {
+    display: block;
+  }
+
+  nav div.breadcrumb-icon {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  div.line-aboutme {
+    padding-left: 141px;
+    padding-right: 141px;
+    margin-top: 100px;
+  }
+
+  section#contact {
+    padding-left: 141px;
+    padding-right: 141px;
+  }
+
+  header.work-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  header.work-heading hr {
+    border: none;
+    height: 0.5px;
+    background: #212121;
+    margin: 0 24px 0 24px;
+  }
+
+  header.work-heading h2 {
+    text-align: left;
+    width: 25%;
   }
 
   section.work-section {
