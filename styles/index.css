@@ -372,6 +372,10 @@ div.sub-projects {
   flex-direction: column;
 }
 
+div.sub-projects:hover {
+  scale: 1.1;
+}
+
 div.sub-projects p.description {
   font-family: 'Inter', sans-serif;
   font-style: normal;
