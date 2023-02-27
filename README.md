@@ -91,9 +91,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-currently not deployed you can view in localhost
-
-- [Live Demo Link](https://localhost:8000)
+- [Live Demo Link](https://0xmalvee.github.io/malvee-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
