@@ -91,6 +91,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+Click bellow to view the website live
+
 - [Live Demo Link](https://0xmalvee.github.io/malvee-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
