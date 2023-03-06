@@ -15,38 +15,55 @@ a {
   color: white;
 }
 
-.mobile-menu{
+.mobile-menu {
   display: block;
-  
   position: fixed;
-  top: 1;
-  left: 1;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
- background-color: #3C3A39;
- overflow-y: hidden;
-
-
+  background-color: #3c3a39;
+  overflow-y: hidden;
 }
-.mobile-menu-links{
-  /* padding-left: 40px; */
-  padding-top: 108px;
+
+div.mobile-menu-links {
+  padding-top: 98px;
+  padding-left: 24px;
+  padding-right: 24px;
   display: flex;
   flex-direction: column;
-  color: #FFF5E1;
-  font-family: Inter;
-  font-style: Bold;
+  color: #fff5e1;
+  font-family: sans-serif, Inter;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
   line-height: 114%;
-  align-items: Left;
-  
+}
 
+div.name a {
+  font-size: 30px;
+  font-weight: bolder;
 }
-.menu-item-container{
+
+ul.menu-item-container {
   list-style-type: none;
+  padding-left: 0;
 }
+
+ul.menu-item-container li a {
+  padding-left: 20px;
+}
+
+span.close-menu-btn {
+  position: absolute;
+  right: 38px;
+  top: 38px;
+}
+
+span.close-menu-btn:hover {
+  cursor: pointer;
+}
+
 /* button effects */
 
 button:hover {
@@ -74,11 +91,6 @@ nav {
 nav div.nav-links {
   align-items: center;
   display: none;
-}
-
-div.name a {
-  font-size: 30px;
-  font-weight: bolder;
 }
 
 nav div.nav-links a {
