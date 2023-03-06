@@ -15,6 +15,38 @@ a {
   color: white;
 }
 
+.mobile-menu{
+  display: block;
+  
+  position: fixed;
+  top: 1;
+  left: 1;
+  height: 100%;
+  width: 100%;
+ background-color: #3C3A39;
+ overflow-y: hidden;
+
+
+}
+.mobile-menu-links{
+  /* padding-left: 40px; */
+  padding-top: 108px;
+  display: flex;
+  flex-direction: column;
+  color: #FFF5E1;
+  font-family: Inter;
+  font-style: Bold;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  line-height: 114%;
+  align-items: Left;
+  
+
+}
+.menu-item-container{
+  list-style-type: none;
+}
 /* button effects */
 
 button:hover {
