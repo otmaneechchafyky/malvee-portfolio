@@ -1,21 +1,17 @@
-const mobile_menu_btn = document.getElementById("breadcrumb-icon");
-const mobile_menu = document.getElementById("mobile-menu");
-const close_menu_btn = document.getElementById("close-menu-btn");
-const menu_links = document.getElementsByClassName("menu-items");
+const MobileMenuBtn = document.getElementById('breadcrumb-icon');
+const MobileMenu = document.getElementById('mobile-menu');
+const CloseMenuBtn = document.getElementById('close-menu-btn');
+const MenuLinks = document.getElementsByClassName('menu-items');
 
-// menu_links.map((link) => {
-//   console.log(link);
-// });
-
-for (let i = 0; i < menu_links.length; i++) {
-  menu_links[i].addEventListener("click", function (e) {
-    mobile_menu.classList.remove("visible");
+for (let i = 0; i < MenuLinks.length; i += 1) {
+  MenuLinks[i].addEventListener('click', () => {
+    MobileMenu.classList.remove('visible');
   });
 }
-mobile_menu_btn.addEventListener("click", function () {
-  mobile_menu.classList.add("visible");
+MobileMenuBtn.addEventListener('click', () => {
+  MobileMenu.classList.add('visible');
 });
 
-close_menu_btn.addEventListener("click", function () {
-  mobile_menu.classList.remove("visible");
+CloseMenuBtn.addEventListener('click', () => {
+  MobileMenu.classList.remove('visible');
 });
