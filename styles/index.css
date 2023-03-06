@@ -15,8 +15,8 @@ a {
   color: white;
 }
 
-.mobile-menu {
-  display: block;
+section.mobile-menu {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -24,6 +24,18 @@ a {
   width: 100%;
   background-color: #3c3a39;
   overflow-y: hidden;
+}
+
+section.visible {
+  display: block;
+}
+
+nav div.breadcrumb-icon {
+  display: block;
+}
+
+div.breadcrumb-icon:hover {
+  cursor: pointer;
 }
 
 div.mobile-menu-links {
@@ -95,10 +107,6 @@ nav div.nav-links {
 
 nav div.nav-links a {
   margin-right: 26px;
-}
-
-nav div.breadcrumb-icon {
-  display: block;
 }
 
 /* contact form */
