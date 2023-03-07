@@ -118,9 +118,7 @@ div.sub-projects ul.tech-used li a {
 }
 
 div.sub-projects div.btn-container {
-  display: none;
-  transition: opacity 1s ease-out !important;
-  opacity: 0;
+  display: block;
   text-align: center;
   color: white;
 }
@@ -146,12 +144,6 @@ header.aboutme-heading button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-div.sub-projects:hover div.btn-container {
-  display: block;
-  transition: all 0.5s !important;
-  opacity: 1;
 }
 
 div.main-project-details ul.tech-used {
@@ -201,14 +193,18 @@ form.contact-form button {
 /* project-popup */
 
 section.project-popup {
+  z-index: 4;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
+  width: 100%;
   backdrop-filter: blur(4px);
 }
 
 section.project-popup div.popup-container {
+  height: 88%;
   position: relative;
   background-color: white;
   margin: 60px 16px;
@@ -241,8 +237,13 @@ section.project-popup div.popup-container ul.tech-used li a {
   border: 1px solid #3c3a39;
 }
 
-section.project-popup div.popup-container div.main-project-image {
+section.project-popup div.popup-container div.project-wrapper div.main-project-image {
   margin-top: 30px;
+}
+
+section.project-popup div.project-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 header.aboutme-heading p {
@@ -275,11 +276,20 @@ div.contact-heading p:hover {
   margin-left: 3px;
 }
 
-section.project-popup div.popup-container p {
+section.headline-section div.headline p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+section.project-popup div.popup-container div.project-wrapper p {
   color: #344563;
 }
 
-section.project-popup div.popup-container button {
+section.project-popup div.popup-container div.project-wrapper button {
   display: flex;
   justify-content: center;
   padding: 12px;
@@ -294,7 +304,11 @@ section.project-popup div.popup-container button {
   margin-right: 19px;
 }
 
-section.project-popup div.popup-container div.btn-container {
+section.project-popup div.popup-container div.project-wrapper button:hover a {
+  color: orange !important;
+}
+
+section.project-popup div.popup-container div.project-wrapper div.btn-container-pop {
   display: flex;
   justify-content: space-between;
 }
@@ -462,15 +476,6 @@ section.headline-section div.headline h2 {
   color: #fff5e1;
 }
 
-section.headline-section div.headline p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
-
 /* work section */
 section.work-section {
   color: black;
@@ -543,16 +548,14 @@ div.sub-projects {
   display: flex;
   flex-direction: column;
   transition: 0.3s all;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 div.sub-projects:hover {
   cursor: pointer;
   transition: 0.3s all;
   scale: 1.01;
-}
-
-div.sub-projects:hover div.sub-project-container .hideonhover {
-  display: none;
 }
 
 div.sub-projects p.description {
@@ -663,9 +666,58 @@ section.project-popup span.close-popup:hover {
   cursor: pointer;
 }
 
+.visible {
+  display: block !important;
+}
+
 /* responsive in desktop */
 
 @media only screen and (min-width: 768px) {
+  div.sub-projects:hover div.sub-project-container .hideonhover {
+    display: none;
+  }
+
+  div.btn-container {
+    display: none !important;
+  }
+
+  div.sub-projects:hover div.btn-container {
+    display: block !important;
+  }
+
+  section.work-section article div.first div.btn-container {
+    display: block;
+  }
+
+  section.project-popup div.popup-container div.project-wrapper div.btn-container-pop {
+    justify-content: start;
+  }
+
+  section.project-popup div.popup-container {
+    margin: 112px 142px;
+    /* stylelint-disable-next-line csstree/validator */
+    height: fit-content;
+  }
+
+  section.project-popup div.project-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section.project-popup div.project-wrapper div.main-project-image {
+    width: 65%;
+  }
+
+  section.project-popup div.project-wrapper div.project-wraper-p-btn {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    padding-bottom: 4px;
+    padding-top: 10px;
+  }
+
   div.contact-main {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -764,10 +816,6 @@ section.project-popup span.close-popup:hover {
 
   section.work-section article div.first div.sub-project-container h3.title {
     display: none;
-  }
-
-  section.work-section article div.first div.btn-container {
-    display: block;
   }
 
   section.headline-section div.headline p {
