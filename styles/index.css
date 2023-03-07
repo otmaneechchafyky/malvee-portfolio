@@ -208,7 +208,6 @@ section.project-popup {
 
 section.project-popup div.popup-container {
   height: 90vh;
-  overflow: scroll;
   position: relative;
   background-color: white;
   margin: 60px 16px;
