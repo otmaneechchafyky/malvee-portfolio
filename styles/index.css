@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 body {
   margin: 0;
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   overflow-x: hidden;
 }
 
@@ -137,7 +137,7 @@ header.aboutme-heading button {
   border: none;
   background: #ff6b00;
   padding: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -173,7 +173,7 @@ div.main-project-details button {
   border: none;
   background: #ff6b00;
   padding: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -192,7 +192,7 @@ form.contact-form button {
   margin-right: auto;
   padding: 12px;
   border-style: none;
-  font-family: 'inter', serif;
+  font-family: "inter", serif;
   font-weight: 700;
   font-size: 17px;
   color: #fff;
@@ -217,7 +217,7 @@ section.project-popup div.popup-container {
 
 section.project-popup div.popup-container h2.project-title {
   color: #172b4d;
-  font-family: sans-serif, 'Roboto';
+  font-family: sans-serif, "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -246,7 +246,7 @@ section.project-popup div.popup-container div.main-project-image {
 }
 
 header.aboutme-heading p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -257,7 +257,7 @@ header.aboutme-heading p {
 }
 
 div.contact-heading p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -286,7 +286,7 @@ section.project-popup div.popup-container button {
   background: #ff6b00;
   border: none;
   color: white;
-  font-family: sans-serif, 'Inter';
+  font-family: sans-serif, "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -305,7 +305,7 @@ form.contact-form input {
   border: 0;
   width: 100%;
   border-bottom: 1px solid #dbd8d7;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -315,7 +315,7 @@ form.contact-form input {
 }
 
 form.contact-form textarea {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -383,7 +383,7 @@ header.work-heading {
 }
 
 header.work-heading h2 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -431,7 +431,7 @@ section.headline-section ul.social-links li {
 
 section.headline-section div.headline h1 {
   margin: 1px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -441,7 +441,7 @@ section.headline-section div.headline h1 {
 }
 
 header.aboutme-heading h2 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -452,7 +452,7 @@ header.aboutme-heading h2 {
 }
 
 section.headline-section div.headline h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -463,7 +463,7 @@ section.headline-section div.headline h2 {
 }
 
 section.headline-section div.headline p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -495,7 +495,7 @@ hr.line {
 }
 
 div.main-project-details h3.title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -507,7 +507,7 @@ div.main-project-details h3.title {
 }
 
 div.main-project-details p.description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -527,7 +527,7 @@ article.work-card-container {
 }
 
 div.sub-projects h3.title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -556,7 +556,7 @@ div.sub-projects:hover div.sub-project-container .hideonhover {
 }
 
 div.sub-projects p.description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -574,7 +574,7 @@ div.sub-projects button.view-project-btn {
   width: 100%;
   background: #ff6b00;
   padding: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -619,7 +619,7 @@ section.aboutme-section div.skills-title {
 
 section.aboutme-section div.skills-title h3 {
   margin-left: 12px;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -635,7 +635,7 @@ section.aboutme-section div.skills ul {
 }
 
 section.aboutme-section div.skills ul li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -771,7 +771,7 @@ section.project-popup span.close-popup:hover {
   }
 
   section.headline-section div.headline p {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -830,7 +830,7 @@ section.project-popup span.close-popup:hover {
   }
 
   section.headline-section div.headline h1 {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -839,7 +839,7 @@ section.project-popup span.close-popup:hover {
   }
 
   section.headline-section div.headline h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -941,7 +941,7 @@ section.project-popup span.close-popup:hover {
   }
 
   section.headline-section div.headline p {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1002,7 +1002,7 @@ section.project-popup span.close-popup:hover {
   }
 
   section.headline-section div.headline h1 {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -1011,7 +1011,7 @@ section.project-popup span.close-popup:hover {
   }
 
   section.headline-section div.headline h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
