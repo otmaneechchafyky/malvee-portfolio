@@ -110,7 +110,140 @@ nav div.nav-links a {
   margin-right: 26px;
 }
 
-/* contact form */
+div.sub-projects ul.tech-used li a {
+  display: inline-block;
+  padding: 10px 12px;
+  margin-right: 12px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+div.sub-projects div.btn-container {
+  display: none;
+  transition: opacity 1s ease-out !important;
+  opacity: 0;
+  text-align: center;
+  color: white;
+}
+
+div.sub-projects ul.tech-used {
+  margin-bottom: 0;
+  list-style-type: none;
+  display: flex;
+  padding-left: 1px;
+}
+
+header.aboutme-heading button {
+  color: white;
+  border: none;
+  background: #ff6b00;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+div.sub-projects:hover div.btn-container {
+  display: block;
+  transition: all 0.5s !important;
+  opacity: 1;
+}
+
+div.main-project-details ul.tech-used {
+  list-style-type: none;
+  display: flex;
+  padding-left: 1px;
+}
+
+div.main-project-details ul.tech-used li a {
+  color: black;
+  display: inline-block;
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+}
+
+div.main-project-details button {
+  color: white;
+  border: none;
+  background: #ff6b00;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+form.contact-form button {
+  background-color: #ff6b00;
+  margin-top: 24px;
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  border-style: none;
+  font-family: 'inter', serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+}
+
+/* project-popup */
+
+section.project-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+}
+
+section.project-popup div.popup-container {
+  position: relative;
+  background-color: white;
+  margin: 60px 16px;
+  padding: 16px;
+}
+
+section.project-popup div.popup-container h2.project-title {
+  color: #172b4d;
+  font-family: sans-serif, 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 0;
+}
+
+section.project-popup div.popup-container ul.tech-used {
+  margin: 0;
+  color: black;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+section.project-popup div.popup-container ul.tech-used li a {
+  display: block;
+  margin-right: 12px;
+  color: #3c3a39;
+  padding: 10px 12px;
+  border: 1px solid #3c3a39;
+}
+
+section.project-popup div.popup-container div.main-project-image {
+  margin-top: 30px;
+}
 
 header.aboutme-heading p {
   font-family: 'Inter', sans-serif;
@@ -142,6 +275,32 @@ div.contact-heading p:hover {
   margin-left: 3px;
 }
 
+section.project-popup div.popup-container p {
+  color: #344563;
+}
+
+section.project-popup div.popup-container button {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  background: #ff6b00;
+  border: none;
+  color: white;
+  font-family: sans-serif, 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  margin-right: 19px;
+}
+
+section.project-popup div.popup-container div.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* contact form */
+
 form.contact-form input {
   border: 0;
   width: 100%;
@@ -171,20 +330,6 @@ form.contact-form textarea {
 form.contact-form {
   padding-left: 24px;
   padding-right: 24px;
-}
-
-form.contact-form button {
-  background-color: #ff6b00;
-  margin-top: 24px;
-  border: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 12px;
-  border-style: none;
-  font-family: 'inter', serif;
-  font-weight: 700;
-  font-size: 17px;
-  color: #fff;
 }
 
 form.contact-form ul {
@@ -370,38 +515,8 @@ div.main-project-details p.description {
   color: #091e42;
 }
 
-div.main-project-details ul.tech-used {
-  list-style-type: none;
-  display: flex;
-  padding-left: 1px;
-}
-
 div.main-project-details ul.tech-used li {
   align-items: center;
-}
-
-div.main-project-details ul.tech-used li a {
-  color: black;
-  display: inline-block;
-  padding: 10px 12px;
-  border: 1px solid #8993a4;
-  margin-right: 12px;
-}
-
-div.main-project-details button {
-  color: white;
-  border: none;
-  background: #ff6b00;
-  padding: 12px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* sub project / more projects */
@@ -448,23 +563,9 @@ div.sub-projects p.description {
   line-height: 24px;
 }
 
-div.sub-projects ul.tech-used {
-  margin-bottom: 0;
-  list-style-type: none;
-  display: flex;
-  padding-left: 1px;
-}
-
 div.sub-projects ul.tech-used li {
   align-items: center;
   margin-bottom: 22px;
-}
-
-div.sub-projects ul.tech-used li a {
-  display: inline-block;
-  padding: 10px 12px;
-  margin-right: 12px;
-  background: rgba(255, 255, 255, 0.24);
 }
 
 div.sub-projects button.view-project-btn {
@@ -490,14 +591,6 @@ div.sub-projects div.sub-project-container {
   background-size: cover;
   padding-left: 16px;
   padding-right: 16px;
-}
-
-div.sub-projects div.btn-container {
-  display: none;
-  transition: opacity 1s ease-out !important;
-  opacity: 0;
-  text-align: center;
-  color: white;
 }
 
 /* about me section */
@@ -560,26 +653,14 @@ header.aboutme-heading {
   background-position: bottom right;
 }
 
-header.aboutme-heading button {
-  color: white;
-  border: none;
-  background: #ff6b00;
-  padding: 12px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
+section.project-popup span.close-popup {
+  position: absolute;
+  top: 24px;
+  right: 24px;
 }
 
-div.sub-projects:hover div.btn-container {
-  display: block;
-  transition: all 0.5s !important;
-  opacity: 1;
+section.project-popup span.close-popup:hover {
+  cursor: pointer;
 }
 
 /* responsive in desktop */
