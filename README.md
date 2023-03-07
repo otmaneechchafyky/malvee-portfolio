@@ -189,6 +189,14 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/alveedev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/0xmalvee)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/SanaTameem)
+
+👤 **Author3**
+
+- GitHub: [@githubhandle](https://github.com/ismayito)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -217,7 +225,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project...
+If you like this project please give a star. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,7 +235,7 @@ If you like this project...
 
 
 
-I would like to thank... me
+I would like to thank all the people that contributed in this project .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
