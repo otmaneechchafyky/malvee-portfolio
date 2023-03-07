@@ -22,8 +22,8 @@ CloseMenuBtn.addEventListener('click', () => {
 
 const MultiPostStories = {
   id: 77,
-  title: 'Multi-Post Stories',
-  imageLink: './static/work/multi-post-stories.png',
+  title: 'Multi-Post',
+  imageLink: './static/work/Snapshoot Portfolio.png',
   descriptionDefault: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   descriptionPopup: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   techUsed: ['html', 'css', 'bootstrap'],
@@ -224,7 +224,7 @@ projectList.forEach((project) => {
   SeeProjectBtn.addEventListener('click', () => {
     // display popup to id same
     const PopUp = document.getElementById(`popup-${project.id}`);
-    PopUp.style.display = 'block';
+    PopUp.style.display = 'flex';
     // console.log(project.id);
   });
 
@@ -243,7 +243,7 @@ const FirstProjectBtn = document.getElementById('first-project');
 
 FirstProjectBtn.addEventListener('click', () => {
   const PopUp = document.getElementById(`popup-${77}`);
-  PopUp.style.display = 'block';
+  PopUp.style.display = 'flex';
 });
 
 const ClosePopupBtnFirst = document.getElementById(`close-popup-${77}`);

@@ -195,16 +195,20 @@ form.contact-form button {
 section.project-popup {
   z-index: 4;
   display: none;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 103vh;
   width: 100%;
+  background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(4px);
 }
 
 section.project-popup div.popup-container {
-  height: 88%;
+  height: 90vh;
+  overflow: scroll;
   position: relative;
   background-color: white;
   margin: 60px 16px;
