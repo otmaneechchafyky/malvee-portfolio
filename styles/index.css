@@ -10,9 +10,8 @@ body {
   overflow-x: hidden;
 }
 
-.error-message{
-  color: red;
-  
+.error-message {
+  color: rgb(233, 65, 65);
 }
 
 a {
