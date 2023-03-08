@@ -10,6 +10,11 @@ body {
   overflow-x: hidden;
 }
 
+.error-message{
+  color: red;
+  
+}
+
 a {
   text-decoration: none;
   color: white;
