@@ -1,36 +1,36 @@
 /* eslint-disable max-len */
-const MobileMenuBtn = document.getElementById("breadcrumb-icon");
-const MobileMenu = document.getElementById("mobile-menu");
-const CloseMenuBtn = document.getElementById("close-menu-btn");
-const MenuLinks = document.getElementsByClassName("menu-items");
+const MobileMenuBtn = document.getElementById('breadcrumb-icon');
+const MobileMenu = document.getElementById('mobile-menu');
+const CloseMenuBtn = document.getElementById('close-menu-btn');
+const MenuLinks = document.getElementsByClassName('menu-items');
 
 // others
-const workSection = document.getElementById("project-section");
+const workSection = document.getElementById('project-section');
 
 for (let i = 0; i < MenuLinks.length; i += 1) {
-  MenuLinks[i].addEventListener("click", () => {
-    MobileMenu.classList.remove("visible");
+  MenuLinks[i].addEventListener('click', () => {
+    MobileMenu.classList.remove('visible');
   });
 }
-MobileMenuBtn.addEventListener("click", () => {
-  MobileMenu.classList.add("visible");
+MobileMenuBtn.addEventListener('click', () => {
+  MobileMenu.classList.add('visible');
 });
 
-CloseMenuBtn.addEventListener("click", () => {
-  MobileMenu.classList.remove("visible");
+CloseMenuBtn.addEventListener('click', () => {
+  MobileMenu.classList.remove('visible');
 });
 
 const MultiPostStories = {
   id: 77,
-  title: "Multi-Post",
-  imageLink: "./static/work/Snapshoot Portfolio.png",
+  title: 'Multi-Post',
+  imageLink: './static/work/Snapshoot Portfolio.png',
   descriptionDefault:
     "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
   descriptionPopup:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-  techUsed: ["html", "css", "bootstrap"],
-  LiveLink: "https://google.com",
-  CodeLink: "#",
+  techUsed: ['html', 'css', 'bootstrap'],
+  LiveLink: 'https://google.com',
+  CodeLink: '#',
 };
 
 const FirstProject = `
@@ -59,81 +59,81 @@ const FirstProject = `
 workSection.innerHTML = FirstProject;
 
 // insert rest of the projects
-const MainProject = document.getElementById("main-project");
+const MainProject = document.getElementById('main-project');
 
 // projects list array
 const projectList = [
   {
     id: 1,
-    title: "Multi-Post App",
-    imageLink: "./static/work/Snapshoot Portfolio.png",
+    title: 'Multi-Post App',
+    imageLink: './static/work/Snapshoot Portfolio.png',
     descriptionDefault:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     descriptionPopup:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    techUsed: ["html", "css", "bootstrap"],
-    LiveLink: "#",
-    CodeLink: "#",
+    techUsed: ['html', 'css', 'bootstrap'],
+    LiveLink: '#',
+    CodeLink: '#',
   },
   {
     id: 2,
-    title: "Social media app",
-    imageLink: "./static/work/Snapshoot Portfolio.png",
+    title: 'Social media app',
+    imageLink: './static/work/Snapshoot Portfolio.png',
     descriptionDefault:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     descriptionPopup:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    techUsed: ["html", "css", "bootstrap"],
-    LiveLink: "#",
-    CodeLink: "#",
+    techUsed: ['html', 'css', 'bootstrap'],
+    LiveLink: '#',
+    CodeLink: '#',
   },
   {
     id: 3,
-    title: "Game App",
-    imageLink: "./static/work/Snapshoot Portfolio.png",
+    title: 'Game App',
+    imageLink: './static/work/Snapshoot Portfolio.png',
     descriptionDefault:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     descriptionPopup:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    techUsed: ["html", "css", "bootstrap"],
-    LiveLink: "#",
-    CodeLink: "#",
+    techUsed: ['html', 'css', 'bootstrap'],
+    LiveLink: '#',
+    CodeLink: '#',
   },
   {
     id: 4,
-    title: "Whatsapp",
-    imageLink: "./static/work/Snapshoot Portfolio.png",
+    title: 'Whatsapp',
+    imageLink: './static/work/Snapshoot Portfolio.png',
     descriptionDefault:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     descriptionPopup:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    techUsed: ["html", "css", "bootstrap"],
-    LiveLink: "#",
-    CodeLink: "#",
+    techUsed: ['html', 'css', 'bootstrap'],
+    LiveLink: '#',
+    CodeLink: '#',
   },
   {
     id: 5,
-    title: "Tinker",
-    imageLink: "./static/work/Snapshoot Portfolio.png",
+    title: 'Tinker',
+    imageLink: './static/work/Snapshoot Portfolio.png',
     descriptionDefault:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     descriptionPopup:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    techUsed: ["html", "css", "bootstrap"],
-    LiveLink: "#",
-    CodeLink: "#",
+    techUsed: ['html', 'css', 'bootstrap'],
+    LiveLink: '#',
+    CodeLink: '#',
   },
   {
     id: 6,
-    title: "Twilio",
-    imageLink: "./static/work/Snapshoot Portfolio.png",
+    title: 'Twilio',
+    imageLink: './static/work/Snapshoot Portfolio.png',
     descriptionDefault:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     descriptionPopup:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    techUsed: ["html", "css", "bootstrap"],
-    LiveLink: "#",
-    CodeLink: "#",
+    techUsed: ['html', 'css', 'bootstrap'],
+    LiveLink: '#',
+    CodeLink: '#',
   },
 ];
 
@@ -145,7 +145,7 @@ const ProjectView = (
   techUsed,
   LiveLink,
   CodeLink,
-  descriptionDefault
+  descriptionDefault,
 ) => `<div class="sub-projects">
 <div class="sub-project-container">
   <h3 class="title hideonhover">${title}</h3>
@@ -172,9 +172,9 @@ projectList.forEach((project) => {
     project.techUsed,
     project.LiveLink,
     project.CodeLink,
-    project.descriptionDefault
+    project.descriptionDefault,
   );
-  MainProject.insertAdjacentHTML("afterend", htmlToInsert);
+  MainProject.insertAdjacentHTML('afterend', htmlToInsert);
 });
 
 // pop-up
@@ -187,7 +187,7 @@ const ProjectPopup = (
   CodeLink,
   descriptionDefault,
   descriptionPopup,
-  imageLink
+  imageLink,
 ) => `
 
 <section class="project-popup" id="popup-${id}">
@@ -246,7 +246,7 @@ const ProjectPopup = (
     </section>
 `;
 
-const WorkHead = document.getElementById("work-heading");
+const WorkHead = document.getElementById('work-heading');
 
 projectList.forEach((project) => {
   const htmlToInsert = ProjectPopup(
@@ -257,27 +257,27 @@ projectList.forEach((project) => {
     project.CodeLink,
     project.descriptionDefault,
     project.descriptionPopup,
-    project.imageLink
+    project.imageLink,
   );
-  WorkHead.insertAdjacentHTML("afterend", htmlToInsert);
+  WorkHead.insertAdjacentHTML('afterend', htmlToInsert);
 });
 
 // add event listeners to the see buttons
 
 projectList.forEach((project) => {
   const SeeProjectBtn = document.getElementById(`project-${project.id}`);
-  SeeProjectBtn.addEventListener("click", () => {
+  SeeProjectBtn.addEventListener('click', () => {
     // display popup to id same
     const PopUp = document.getElementById(`popup-${project.id}`);
-    PopUp.style.display = "flex";
+    PopUp.style.display = 'flex';
     // console.log(project.id);
   });
 
   // close event listeners
   const ClosePopupBtn = document.getElementById(`close-popup-${project.id}`);
-  ClosePopupBtn.addEventListener("click", () => {
+  ClosePopupBtn.addEventListener('click', () => {
     const PopUp = document.getElementById(`popup-${project.id}`);
-    PopUp.style.display = "none";
+    PopUp.style.display = 'none';
   });
 });
 
@@ -289,57 +289,56 @@ const htmlToInsert = ProjectPopup(
   MultiPostStories.CodeLink,
   MultiPostStories.descriptionDefault,
   MultiPostStories.descriptionPopup,
-  MultiPostStories.imageLink
+  MultiPostStories.imageLink,
 );
-WorkHead.insertAdjacentHTML("afterend", htmlToInsert);
+WorkHead.insertAdjacentHTML('afterend', htmlToInsert);
 
-const FirstProjectBtn = document.getElementById("first-project");
+const FirstProjectBtn = document.getElementById('first-project');
 
-FirstProjectBtn.addEventListener("click", () => {
+FirstProjectBtn.addEventListener('click', () => {
   const PopUp = document.getElementById(`popup-${77}`);
-  PopUp.style.display = "flex";
+  PopUp.style.display = 'flex';
 });
 
 const ClosePopupBtnFirst = document.getElementById(`close-popup-${77}`);
-ClosePopupBtnFirst.addEventListener("click", () => {
+ClosePopupBtnFirst.addEventListener('click', () => {
   const PopUp = document.getElementById(`popup-${77}`);
-  PopUp.style.display = "none";
+  PopUp.style.display = 'none';
 });
 
 // form validation
-const EmailInput = document.getElementById("email-address");
-const Form = document.getElementById("contact-form");
-const ErrorMessage = document.getElementById("error-message");
+const EmailInput = document.getElementById('email-address');
+const Form = document.getElementById('contact-form');
+const ErrorMessage = document.getElementById('error-message');
 
-Form.addEventListener("submit", (e) => {
+Form.addEventListener('submit', (e) => {
   if (EmailInput.value !== EmailInput.value.toLowerCase()) {
     e.preventDefault();
-    ErrorMessage.textContent = "Please make sure your email is in lower case";
+    ErrorMessage.textContent = 'Please make sure your email is in lower case';
   }
 });
 
 // preserve data in the browser
 
-const name = document.getElementById("user-name");
-const email = document.getElementById("email-address");
-const message = document.getElementById("msg");
+const name = document.getElementById('user-name');
+const email = document.getElementById('email-address');
+const message = document.getElementById('msg');
 
 const inputField = [name, email, message];
 
-inputField.forEach(item =>{
-  item.addEventListener("input", function(){
+inputField.forEach((item) => {
+  item.addEventListener('input', () => {
     const data = {
       name: name.value,
       email: email.value,
       message: message.value,
     };
-    
+
     localStorage.setItem('client-data', JSON.stringify(data));
-  })
-})
+  });
+});
 
-const data_ = JSON.parse(localStorage.getItem('client-data'));
-name.vlaue  = data_name;
-email.value = data_.email;
-message.value = data_.message;
-
+const dataSaved = JSON.parse(localStorage.getItem('client-data'));
+name.value = dataSaved.name;
+email.value = dataSaved.email;
+message.value = dataSaved.message;
