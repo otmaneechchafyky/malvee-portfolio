@@ -24,8 +24,10 @@ const MultiPostStories = {
   id: 77,
   title: 'Multi-Post',
   imageLink: './static/work/Snapshoot Portfolio.png',
-  descriptionDefault: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-  descriptionPopup: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  descriptionDefault:
+    "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+  descriptionPopup:
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
   techUsed: ['html', 'css', 'bootstrap'],
   LiveLink: 'https://google.com',
   CodeLink: '#',
@@ -65,8 +67,10 @@ const projectList = [
     id: 1,
     title: 'Multi-Post App',
     imageLink: './static/work/Snapshoot Portfolio.png',
-    descriptionDefault: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    descriptionPopup: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    descriptionDefault:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionPopup:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     techUsed: ['html', 'css', 'bootstrap'],
     LiveLink: '#',
     CodeLink: '#',
@@ -75,8 +79,10 @@ const projectList = [
     id: 2,
     title: 'Social media app',
     imageLink: './static/work/Snapshoot Portfolio.png',
-    descriptionDefault: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    descriptionPopup: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    descriptionDefault:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionPopup:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     techUsed: ['html', 'css', 'bootstrap'],
     LiveLink: '#',
     CodeLink: '#',
@@ -85,8 +91,10 @@ const projectList = [
     id: 3,
     title: 'Game App',
     imageLink: './static/work/Snapshoot Portfolio.png',
-    descriptionDefault: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    descriptionPopup: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    descriptionDefault:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionPopup:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     techUsed: ['html', 'css', 'bootstrap'],
     LiveLink: '#',
     CodeLink: '#',
@@ -95,8 +103,10 @@ const projectList = [
     id: 4,
     title: 'Whatsapp',
     imageLink: './static/work/Snapshoot Portfolio.png',
-    descriptionDefault: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    descriptionPopup: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    descriptionDefault:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionPopup:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     techUsed: ['html', 'css', 'bootstrap'],
     LiveLink: '#',
     CodeLink: '#',
@@ -105,8 +115,10 @@ const projectList = [
     id: 5,
     title: 'Tinker',
     imageLink: './static/work/Snapshoot Portfolio.png',
-    descriptionDefault: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    descriptionPopup: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    descriptionDefault:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionPopup:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     techUsed: ['html', 'css', 'bootstrap'],
     LiveLink: '#',
     CodeLink: '#',
@@ -115,18 +127,26 @@ const projectList = [
     id: 6,
     title: 'Twilio',
     imageLink: './static/work/Snapshoot Portfolio.png',
-    descriptionDefault: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    descriptionPopup: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    descriptionDefault:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    descriptionPopup:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     techUsed: ['html', 'css', 'bootstrap'],
     LiveLink: '#',
     CodeLink: '#',
   },
-
 ];
 
 projectList.reverse();
 
-const ProjectView = (id, title, techUsed, LiveLink, CodeLink, descriptionDefault) => `<div class="sub-projects">
+const ProjectView = (
+  id,
+  title,
+  techUsed,
+  LiveLink,
+  CodeLink,
+  descriptionDefault,
+) => `<div class="sub-projects">
 <div class="sub-project-container">
   <h3 class="title hideonhover">${title}</h3>
   <p class="description hideonhover">${descriptionDefault}</p>
@@ -146,13 +166,29 @@ const ProjectView = (id, title, techUsed, LiveLink, CodeLink, descriptionDefault
 </div>`;
 
 projectList.forEach((project) => {
-  const htmlToInsert = ProjectView(project.id, project.title, project.techUsed, project.LiveLink, project.CodeLink, project.descriptionDefault);
+  const htmlToInsert = ProjectView(
+    project.id,
+    project.title,
+    project.techUsed,
+    project.LiveLink,
+    project.CodeLink,
+    project.descriptionDefault,
+  );
   MainProject.insertAdjacentHTML('afterend', htmlToInsert);
 });
 
 // pop-up
 
-const ProjectPopup = (id, title, techUsed, LiveLink, CodeLink, descriptionDefault, descriptionPopup, imageLink) => `
+const ProjectPopup = (
+  id,
+  title,
+  techUsed,
+  LiveLink,
+  CodeLink,
+  descriptionDefault,
+  descriptionPopup,
+  imageLink,
+) => `
 
 <section class="project-popup" id="popup-${id}">
       <div class="popup-container">
@@ -213,7 +249,16 @@ const ProjectPopup = (id, title, techUsed, LiveLink, CodeLink, descriptionDefaul
 const WorkHead = document.getElementById('work-heading');
 
 projectList.forEach((project) => {
-  const htmlToInsert = ProjectPopup(project.id, project.title, project.techUsed, project.LiveLink, project.CodeLink, project.descriptionDefault, project.descriptionPopup, project.imageLink);
+  const htmlToInsert = ProjectPopup(
+    project.id,
+    project.title,
+    project.techUsed,
+    project.LiveLink,
+    project.CodeLink,
+    project.descriptionDefault,
+    project.descriptionPopup,
+    project.imageLink,
+  );
   WorkHead.insertAdjacentHTML('afterend', htmlToInsert);
 });
 
@@ -236,7 +281,16 @@ projectList.forEach((project) => {
   });
 });
 
-const htmlToInsert = ProjectPopup(MultiPostStories.id, MultiPostStories.title, MultiPostStories.techUsed, MultiPostStories.LiveLink, MultiPostStories.CodeLink, MultiPostStories.descriptionDefault, MultiPostStories.descriptionPopup, MultiPostStories.imageLink);
+const htmlToInsert = ProjectPopup(
+  MultiPostStories.id,
+  MultiPostStories.title,
+  MultiPostStories.techUsed,
+  MultiPostStories.LiveLink,
+  MultiPostStories.CodeLink,
+  MultiPostStories.descriptionDefault,
+  MultiPostStories.descriptionPopup,
+  MultiPostStories.imageLink,
+);
 WorkHead.insertAdjacentHTML('afterend', htmlToInsert);
 
 const FirstProjectBtn = document.getElementById('first-project');
@@ -263,3 +317,28 @@ Form.addEventListener('submit', (e) => {
     ErrorMessage.textContent = 'Please make sure your email is in lower case';
   }
 });
+
+// preserve data in the browser
+
+const name = document.getElementById('user-name');
+const email = document.getElementById('email-address');
+const message = document.getElementById('msg');
+
+const inputField = [name, email, message];
+
+inputField.forEach((item) => {
+  item.addEventListener('input', () => {
+    const data = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+
+    localStorage.setItem('client-data', JSON.stringify(data));
+  });
+});
+
+const dataSaved = JSON.parse(localStorage.getItem('client-data'));
+name.value = dataSaved.name;
+email.value = dataSaved.email;
+message.value = dataSaved.message;
