@@ -339,4 +339,7 @@ inputField.forEach(item =>{
 })
 
 const data_ = JSON.parse(localStorage.getItem('client-data'));
+name.vlaue  = data_name;
+email.value = data_.email;
+message.value = data_.message;
 
