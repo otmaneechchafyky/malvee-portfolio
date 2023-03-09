@@ -324,4 +324,19 @@ const name = document.getElementById("user-name");
 const email = document.getElementById("email-address");
 const message = document.getElementById("msg");
 
-console.log(`name ${name.value}`);
+const inputField = [name, email, message];
+
+inputField.forEach(item =>{
+  item.addEventListener("input", function(){
+    const data = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+    
+    localStorage.setItem('client-data', JSON.stringify(data));
+  })
+})
+
+const data_ = JSON.parse(localStorage.getItem('client-data'));
+
